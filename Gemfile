@@ -5,6 +5,10 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem 'paperclip', '~> 6.1'
+gem 'devise', '~> 4.7'
+gem 'simple_form', '~> 4.1'
+gem 'haml', '~> 5.1', '>= 5.1.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.6'
